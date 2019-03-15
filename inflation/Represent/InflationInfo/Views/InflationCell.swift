@@ -12,6 +12,11 @@ final class InflationCell: UITableViewCell {
     @IBOutlet private weak var monthLabel: UILabel!
     @IBOutlet private weak var inflationLabel: UILabel!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        selectionStyle = .none
+    }
+    
     func configure(with model: InflationMonth) {
         if model.isInvalidated {
             return
