@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  inflation
+
+  Created by Maxim MAMEDOV on 13/03/2019.
+  Copyright © 2019 ServiceGuru. All rights reserved.
+*/
+
+"Error.unknown" = "Произошла неизвестая ошибка. Попробуйте позднее.";
+"Error.decodingError" = "Ошибка декодирования. Попробуйте позднее.";
+"Error.csvFormatError" = "Ошибка формата загруженного файла. Попробуйте позднее.";
+"Error.repeatButton" = "Повторить";
+
+"InflationInfo.title" = "Инфляция в России";
+"InflationCalculator.title" = "Калькулятор";
+"InflationCalculator.calculationInfoFormat" = "Инфляция за %@ составила %.3f%%";

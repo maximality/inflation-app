@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MF0-5j-PT8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="ub4-KP-DhC">
+            <objects>
+                <navigationController id="MF0-5j-PT8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="InflationInfoTabItem" id="9c4-Mo-g8f"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="rtz-co-x7X">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MjT-xV-aVT" kind="relationship" relationship="rootViewController" id="Yfb-EL-QXD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mza-vf-PC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-822" y="-132"/>
+        </scene>
+        <!--Inflation Info View Controller-->
+        <scene sceneID="jkr-Jt-AnW">
+            <objects>
+                <viewController id="MjT-xV-aVT" customClass="InflationInfoViewController" customModule="inflation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rRu-Qz-lej">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ROj-dy-X6A">
+                                <rect key="frame" x="0.0" y="116" width="375" height="502"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVl-lj-vbc">
+                                <rect key="frame" x="0.0" y="116" width="375" height="502"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="E2V-lM-ot8">
+                                        <rect key="frame" x="177.5" y="241" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="E2V-lM-ot8" firstAttribute="centerX" secondItem="XVl-lj-vbc" secondAttribute="centerX" id="R8f-AT-EdF"/>
+                                    <constraint firstItem="E2V-lM-ot8" firstAttribute="centerY" secondItem="XVl-lj-vbc" secondAttribute="centerY" id="sk4-dN-9ff"/>
+                                </constraints>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Prp-1f-yTT">
+                                <rect key="frame" x="0.0" y="116" width="375" height="502"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDT-Ff-uZZ">
+                                        <rect key="frame" x="25" y="241" width="325" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZZ-dR-A2Z">
+                                        <rect key="frame" x="164.5" y="286.5" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="repeatButtonDidTapped:" destination="MjT-xV-aVT" eventType="touchUpInside" id="06g-R9-HEk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="vDT-Ff-uZZ" secondAttribute="trailing" constant="25" id="2LH-q7-lli"/>
+                                    <constraint firstItem="vDT-Ff-uZZ" firstAttribute="centerX" secondItem="Prp-1f-yTT" secondAttribute="centerX" id="KhZ-Pz-VC4"/>
+                                    <constraint firstItem="vDT-Ff-uZZ" firstAttribute="centerY" secondItem="Prp-1f-yTT" secondAttribute="centerY" id="Yf6-6B-c3S"/>
+                                    <constraint firstItem="MZZ-dR-A2Z" firstAttribute="centerX" secondItem="Prp-1f-yTT" secondAttribute="centerX" id="fO4-9S-vIY"/>
+                                    <constraint firstItem="MZZ-dR-A2Z" firstAttribute="top" secondItem="vDT-Ff-uZZ" secondAttribute="bottom" constant="25" id="fv6-0r-Oas"/>
+                                    <constraint firstItem="vDT-Ff-uZZ" firstAttribute="leading" secondItem="Prp-1f-yTT" secondAttribute="leading" constant="25" id="zxY-ed-SnM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Prp-1f-yTT" firstAttribute="top" secondItem="4gL-tS-6Iq" secondAttribute="top" id="DOx-6n-BqL"/>
+                            <constraint firstItem="ROj-dy-X6A" firstAttribute="leading" secondItem="4gL-tS-6Iq" secondAttribute="leading" id="E5S-iF-cvR"/>
+                            <constraint firstItem="4gL-tS-6Iq" firstAttribute="bottom" secondItem="XVl-lj-vbc" secondAttribute="bottom" id="EQe-zh-egC"/>
+                            <constraint firstItem="4gL-tS-6Iq" firstAttribute="bottom" secondItem="ROj-dy-X6A" secondAttribute="bottom" id="Irx-yB-lto"/>
+                            <constraint firstItem="XVl-lj-vbc" firstAttribute="leading" secondItem="4gL-tS-6Iq" secondAttribute="leading" id="MgL-mI-mpo"/>
+                            <constraint firstItem="XVl-lj-vbc" firstAttribute="top" secondItem="4gL-tS-6Iq" secondAttribute="top" id="OO9-pW-hhj"/>
+                            <constraint firstItem="4gL-tS-6Iq" firstAttribute="trailing" secondItem="ROj-dy-X6A" secondAttribute="trailing" id="Ufg-hD-qCQ"/>
+                            <constraint firstItem="4gL-tS-6Iq" firstAttribute="trailing" secondItem="XVl-lj-vbc" secondAttribute="trailing" id="cKF-pX-cfE"/>
+                            <constraint firstItem="Prp-1f-yTT" firstAttribute="leading" secondItem="4gL-tS-6Iq" secondAttribute="leading" id="d4b-it-BrQ"/>
+                            <constraint firstItem="4gL-tS-6Iq" firstAttribute="trailing" secondItem="Prp-1f-yTT" secondAttribute="trailing" id="fPA-I3-ID1"/>
+                            <constraint firstItem="4gL-tS-6Iq" firstAttribute="bottom" secondItem="Prp-1f-yTT" secondAttribute="bottom" id="l3W-xj-hbK"/>
+                            <constraint firstItem="ROj-dy-X6A" firstAttribute="top" secondItem="4gL-tS-6Iq" secondAttribute="top" id="m0q-De-ApD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4gL-tS-6Iq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qcV-Lv-czy"/>
+                    <connections>
+                        <outlet property="errorLabel" destination="vDT-Ff-uZZ" id="wpd-4u-9ob"/>
+                        <outlet property="errorView" destination="Prp-1f-yTT" id="ddA-kc-oPb"/>
+                        <outlet property="loadingView" destination="XVl-lj-vbc" id="O2N-bH-RUA"/>
+                        <outlet property="repeatButton" destination="MZZ-dR-A2Z" id="Qhk-ne-D09"/>
+                        <outlet property="tableView" destination="ROj-dy-X6A" id="FVA-lT-FAu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tSp-Xc-fNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330" y="-133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="InflationInfoTabItem" width="20" height="20"/>
+    </resources>
+</document>

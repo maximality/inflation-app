@@ -1,0 +1,6 @@
+framework module Pods_inflation {
+  umbrella header "Pods-inflation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -12,6 +12,35 @@
 		813F3C2B2238FEC500AC0C9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813F3C292238FEC500AC0C9C /* Main.storyboard */; };
 		813F3C2D2238FEC900AC0C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813F3C2C2238FEC900AC0C9C /* Assets.xcassets */; };
 		813F3C302238FEC900AC0C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813F3C2E2238FEC900AC0C9C /* LaunchScreen.storyboard */; };
+		813F3C38223906E900AC0C9C /* InflationInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813F3C37223906E900AC0C9C /* InflationInfo.storyboard */; };
+		813F3C3A2239070100AC0C9C /* InflationCalculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813F3C392239070100AC0C9C /* InflationCalculator.storyboard */; };
+		813F3C3E2239085800AC0C9C /* InflationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C3D2239085800AC0C9C /* InflationInfoViewController.swift */; };
+		813F3C402239086A00AC0C9C /* InflationInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C3F2239086A00AC0C9C /* InflationInfoPresenter.swift */; };
+		813F3C43223909AF00AC0C9C /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C42223909AF00AC0C9C /* Container.swift */; };
+		813F3C4622390A5000AC0C9C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C4522390A5000AC0C9C /* NetworkService.swift */; };
+		813F3C4822390A5D00AC0C9C /* InflationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C4722390A5D00AC0C9C /* InflationService.swift */; };
+		813F3C4D22390AF300AC0C9C /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C4C22390AF300AC0C9C /* RealmService.swift */; };
+		813F3C4F22390E8400AC0C9C /* InflationInfoTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C4E22390E8400AC0C9C /* InflationInfoTableViewAdapter.swift */; };
+		813F3C5422390FA100AC0C9C /* InflationMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C5322390FA100AC0C9C /* InflationMonth.swift */; };
+		813F3C5622390FA800AC0C9C /* InflationYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C5522390FA800AC0C9C /* InflationYear.swift */; };
+		813F3C59223913F900AC0C9C /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C58223913F900AC0C9C /* RequestProtocol.swift */; };
+		813F3C5B2239142E00AC0C9C /* GetInflationDataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C5A2239142E00AC0C9C /* GetInflationDataRequest.swift */; };
+		813F3C6722391B3D00AC0C9C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 813F3C6922391B3D00AC0C9C /* Localizable.strings */; };
+		813F3C6B22391BB400AC0C9C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C6A22391BB400AC0C9C /* Constants.swift */; };
+		813F3C6F22391CA600AC0C9C /* InflationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C6D22391CA600AC0C9C /* InflationCell.swift */; };
+		813F3C7022391CA600AC0C9C /* InflationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F3C6E22391CA600AC0C9C /* InflationCell.xib */; };
+		813F3C7222391F3B00AC0C9C /* PercentageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C7122391F3B00AC0C9C /* PercentageFormatter.swift */; };
+		813F3C742239201600AC0C9C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C732239201600AC0C9C /* R.generated.swift */; };
+		813F3C782239216400AC0C9C /* InflationYearHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C772239216400AC0C9C /* InflationYearHeader.swift */; };
+		813F3C7A2239216E00AC0C9C /* InflationYearHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F3C792239216E00AC0C9C /* InflationYearHeader.xib */; };
+		813F3C7D22393DC700AC0C9C /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C7C22393DC700AC0C9C /* CustomErrors.swift */; };
+		813F3C7F223941CA00AC0C9C /* DateFormatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C7E223941CA00AC0C9C /* DateFormatHelper.swift */; };
+		813F3C8122395FCC00AC0C9C /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F3C8022395FCC00AC0C9C /* MulticastDelegate.swift */; };
+		81B0D32F223A8F1400D0F4BD /* InflationCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0D32E223A8F1400D0F4BD /* InflationCalculatorViewController.swift */; };
+		81B0D331223A8F2300D0F4BD /* InflationCalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0D330223A8F2300D0F4BD /* InflationCalculatorPresenter.swift */; };
+		81B0D333223ACFAB00D0F4BD /* InflationCalculatorPickerViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0D332223ACFAB00D0F4BD /* InflationCalculatorPickerViewAdapter.swift */; };
+		81CE9D46223B1E9500355D80 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 81CE9D48223B1E9500355D80 /* Localizable.stringsdict */; };
+		D26AB588C95746027537DB5E /* Pods_inflation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2083D14F5CDB9259AD35A26 /* Pods_inflation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +51,39 @@
 		813F3C2C2238FEC900AC0C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813F3C2F2238FEC900AC0C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813F3C312238FEC900AC0C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813F3C37223906E900AC0C9C /* InflationInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InflationInfo.storyboard; sourceTree = "<group>"; };
+		813F3C392239070100AC0C9C /* InflationCalculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InflationCalculator.storyboard; sourceTree = "<group>"; };
+		813F3C3D2239085800AC0C9C /* InflationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationInfoViewController.swift; sourceTree = "<group>"; };
+		813F3C3F2239086A00AC0C9C /* InflationInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationInfoPresenter.swift; sourceTree = "<group>"; };
+		813F3C42223909AF00AC0C9C /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		813F3C4522390A5000AC0C9C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		813F3C4722390A5D00AC0C9C /* InflationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationService.swift; sourceTree = "<group>"; };
+		813F3C4C22390AF300AC0C9C /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		813F3C4E22390E8400AC0C9C /* InflationInfoTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationInfoTableViewAdapter.swift; sourceTree = "<group>"; };
+		813F3C5322390FA100AC0C9C /* InflationMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationMonth.swift; sourceTree = "<group>"; };
+		813F3C5522390FA800AC0C9C /* InflationYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationYear.swift; sourceTree = "<group>"; };
+		813F3C58223913F900AC0C9C /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		813F3C5A2239142E00AC0C9C /* GetInflationDataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInflationDataRequest.swift; sourceTree = "<group>"; };
+		813F3C6822391B3D00AC0C9C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		813F3C6A22391BB400AC0C9C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		813F3C6D22391CA600AC0C9C /* InflationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationCell.swift; sourceTree = "<group>"; };
+		813F3C6E22391CA600AC0C9C /* InflationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InflationCell.xib; sourceTree = "<group>"; };
+		813F3C7122391F3B00AC0C9C /* PercentageFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageFormatter.swift; sourceTree = "<group>"; };
+		813F3C732239201600AC0C9C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		813F3C772239216400AC0C9C /* InflationYearHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationYearHeader.swift; sourceTree = "<group>"; };
+		813F3C792239216E00AC0C9C /* InflationYearHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InflationYearHeader.xib; sourceTree = "<group>"; };
+		813F3C7C22393DC700AC0C9C /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		813F3C7E223941CA00AC0C9C /* DateFormatHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatHelper.swift; sourceTree = "<group>"; };
+		813F3C8022395FCC00AC0C9C /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		81B0D32C223A82B600D0F4BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81B0D32E223A8F1400D0F4BD /* InflationCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationCalculatorViewController.swift; sourceTree = "<group>"; };
+		81B0D330223A8F2300D0F4BD /* InflationCalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationCalculatorPresenter.swift; sourceTree = "<group>"; };
+		81B0D332223ACFAB00D0F4BD /* InflationCalculatorPickerViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationCalculatorPickerViewAdapter.swift; sourceTree = "<group>"; };
+		81CE9D47223B1E9500355D80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		81CE9D4A223B1E9E00355D80 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		9FED5B12DF243ECA1AD23567 /* Pods-inflation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inflation.release.xcconfig"; path = "Target Support Files/Pods-inflation/Pods-inflation.release.xcconfig"; sourceTree = "<group>"; };
+		A2083D14F5CDB9259AD35A26 /* Pods_inflation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inflation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4169771D5DF33249356F2C /* Pods-inflation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inflation.debug.xcconfig"; path = "Target Support Files/Pods-inflation/Pods-inflation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +91,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26AB588C95746027537DB5E /* Pods_inflation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DD2A4C0635A23D4F4FCCD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2083D14F5CDB9259AD35A26 /* Pods_inflation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		813F3C192238FEC500AC0C9C = {
 			isa = PBXGroup;
 			children = (
 				813F3C242238FEC500AC0C9C /* inflation */,
 				813F3C232238FEC500AC0C9C /* Products */,
+				EEADC8E7A624391CBD160406 /* Pods */,
+				4DD2A4C0635A23D4F4FCCD65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +128,130 @@
 			isa = PBXGroup;
 			children = (
 				813F3C252238FEC500AC0C9C /* AppDelegate.swift */,
+				813F3C57223913EC00AC0C9C /* Requests */,
+				813F3C5022390F6900AC0C9C /* Entities */,
+				813F3C4922390A7700AC0C9C /* Helpers */,
+				813F3C44223909E900AC0C9C /* Service */,
+				813F3C41223909A200AC0C9C /* DI */,
+				813F3C3B2239082700AC0C9C /* Represent */,
 				813F3C272238FEC500AC0C9C /* ViewController.swift */,
 				813F3C292238FEC500AC0C9C /* Main.storyboard */,
+				813F3C37223906E900AC0C9C /* InflationInfo.storyboard */,
+				813F3C392239070100AC0C9C /* InflationCalculator.storyboard */,
 				813F3C2C2238FEC900AC0C9C /* Assets.xcassets */,
 				813F3C2E2238FEC900AC0C9C /* LaunchScreen.storyboard */,
 				813F3C312238FEC900AC0C9C /* Info.plist */,
+				81CE9D48223B1E9500355D80 /* Localizable.stringsdict */,
+				813F3C6922391B3D00AC0C9C /* Localizable.strings */,
+				813F3C732239201600AC0C9C /* R.generated.swift */,
 			);
 			path = inflation;
+			sourceTree = "<group>";
+		};
+		813F3C3B2239082700AC0C9C /* Represent */ = {
+			isa = PBXGroup;
+			children = (
+				81B0D32D223A8EEC00D0F4BD /* InflationCalculator */,
+				813F3C3C2239083700AC0C9C /* InflationInfo */,
+			);
+			path = Represent;
+			sourceTree = "<group>";
+		};
+		813F3C3C2239083700AC0C9C /* InflationInfo */ = {
+			isa = PBXGroup;
+			children = (
+				813F3C6C22391C8C00AC0C9C /* Views */,
+				813F3C3D2239085800AC0C9C /* InflationInfoViewController.swift */,
+				813F3C3F2239086A00AC0C9C /* InflationInfoPresenter.swift */,
+				813F3C4E22390E8400AC0C9C /* InflationInfoTableViewAdapter.swift */,
+			);
+			path = InflationInfo;
+			sourceTree = "<group>";
+		};
+		813F3C41223909A200AC0C9C /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				813F3C42223909AF00AC0C9C /* Container.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		813F3C44223909E900AC0C9C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				813F3C4522390A5000AC0C9C /* NetworkService.swift */,
+				813F3C4722390A5D00AC0C9C /* InflationService.swift */,
+				813F3C4C22390AF300AC0C9C /* RealmService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		813F3C4922390A7700AC0C9C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				813F3C6A22391BB400AC0C9C /* Constants.swift */,
+				813F3C7122391F3B00AC0C9C /* PercentageFormatter.swift */,
+				813F3C7E223941CA00AC0C9C /* DateFormatHelper.swift */,
+				813F3C8022395FCC00AC0C9C /* MulticastDelegate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		813F3C5022390F6900AC0C9C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				813F3C7B22393DB700AC0C9C /* Errors */,
+				813F3C5322390FA100AC0C9C /* InflationMonth.swift */,
+				813F3C5522390FA800AC0C9C /* InflationYear.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		813F3C57223913EC00AC0C9C /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				813F3C58223913F900AC0C9C /* RequestProtocol.swift */,
+				813F3C5A2239142E00AC0C9C /* GetInflationDataRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		813F3C6C22391C8C00AC0C9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				813F3C6D22391CA600AC0C9C /* InflationCell.swift */,
+				813F3C6E22391CA600AC0C9C /* InflationCell.xib */,
+				813F3C772239216400AC0C9C /* InflationYearHeader.swift */,
+				813F3C792239216E00AC0C9C /* InflationYearHeader.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		813F3C7B22393DB700AC0C9C /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				813F3C7C22393DC700AC0C9C /* CustomErrors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		81B0D32D223A8EEC00D0F4BD /* InflationCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				81B0D32E223A8F1400D0F4BD /* InflationCalculatorViewController.swift */,
+				81B0D330223A8F2300D0F4BD /* InflationCalculatorPresenter.swift */,
+				81B0D332223ACFAB00D0F4BD /* InflationCalculatorPickerViewAdapter.swift */,
+			);
+			path = InflationCalculator;
+			sourceTree = "<group>";
+		};
+		EEADC8E7A624391CBD160406 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4169771D5DF33249356F2C /* Pods-inflation.debug.xcconfig */,
+				9FED5B12DF243ECA1AD23567 /* Pods-inflation.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 813F3C342238FEC900AC0C9C /* Build configuration list for PBXNativeTarget "inflation" */;
 			buildPhases = (
+				93BBD9B7352857B76D547DEC /* [CP] Check Pods Manifest.lock */,
+				813F3C5C223919FF00AC0C9C /* Run Script */,
 				813F3C1E2238FEC500AC0C9C /* Sources */,
 				813F3C1F2238FEC500AC0C9C /* Frameworks */,
 				813F3C202238FEC500AC0C9C /* Resources */,
+				0FDA1A50227C3D7A92F8E6F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -104,8 +297,9 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
+				ru,
 			);
 			mainGroup = 813F3C192238FEC500AC0C9C;
 			productRefGroup = 813F3C232238FEC500AC0C9C /* Products */;
@@ -122,13 +316,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813F3C3A2239070100AC0C9C /* InflationCalculator.storyboard in Resources */,
+				813F3C6722391B3D00AC0C9C /* Localizable.strings in Resources */,
+				81CE9D46223B1E9500355D80 /* Localizable.stringsdict in Resources */,
+				813F3C7022391CA600AC0C9C /* InflationCell.xib in Resources */,
 				813F3C302238FEC900AC0C9C /* LaunchScreen.storyboard in Resources */,
+				813F3C7A2239216E00AC0C9C /* InflationYearHeader.xib in Resources */,
 				813F3C2D2238FEC900AC0C9C /* Assets.xcassets in Resources */,
 				813F3C2B2238FEC500AC0C9C /* Main.storyboard in Resources */,
+				813F3C38223906E900AC0C9C /* InflationInfo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FDA1A50227C3D7A92F8E6F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-inflation/Pods-inflation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CSV.swift/CSV.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSV.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-inflation/Pods-inflation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		813F3C5C223919FF00AC0C9C /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		93BBD9B7352857B76D547DEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inflation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		813F3C1E2238FEC500AC0C9C /* Sources */ = {
@@ -136,7 +413,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				813F3C282238FEC500AC0C9C /* ViewController.swift in Sources */,
+				813F3C3E2239085800AC0C9C /* InflationInfoViewController.swift in Sources */,
+				813F3C8122395FCC00AC0C9C /* MulticastDelegate.swift in Sources */,
+				813F3C43223909AF00AC0C9C /* Container.swift in Sources */,
+				81B0D331223A8F2300D0F4BD /* InflationCalculatorPresenter.swift in Sources */,
+				813F3C59223913F900AC0C9C /* RequestProtocol.swift in Sources */,
+				813F3C5422390FA100AC0C9C /* InflationMonth.swift in Sources */,
 				813F3C262238FEC500AC0C9C /* AppDelegate.swift in Sources */,
+				813F3C7222391F3B00AC0C9C /* PercentageFormatter.swift in Sources */,
+				813F3C4D22390AF300AC0C9C /* RealmService.swift in Sources */,
+				813F3C7D22393DC700AC0C9C /* CustomErrors.swift in Sources */,
+				813F3C782239216400AC0C9C /* InflationYearHeader.swift in Sources */,
+				813F3C742239201600AC0C9C /* R.generated.swift in Sources */,
+				813F3C4822390A5D00AC0C9C /* InflationService.swift in Sources */,
+				813F3C7F223941CA00AC0C9C /* DateFormatHelper.swift in Sources */,
+				813F3C4622390A5000AC0C9C /* NetworkService.swift in Sources */,
+				81B0D32F223A8F1400D0F4BD /* InflationCalculatorViewController.swift in Sources */,
+				813F3C6F22391CA600AC0C9C /* InflationCell.swift in Sources */,
+				813F3C4F22390E8400AC0C9C /* InflationInfoTableViewAdapter.swift in Sources */,
+				813F3C5B2239142E00AC0C9C /* GetInflationDataRequest.swift in Sources */,
+				813F3C6B22391BB400AC0C9C /* Constants.swift in Sources */,
+				81B0D333223ACFAB00D0F4BD /* InflationCalculatorPickerViewAdapter.swift in Sources */,
+				813F3C5622390FA800AC0C9C /* InflationYear.swift in Sources */,
+				813F3C402239086A00AC0C9C /* InflationInfoPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +458,25 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		813F3C6922391B3D00AC0C9C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				813F3C6822391B3D00AC0C9C /* ru */,
+				81B0D32C223A82B600D0F4BD /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		81CE9D48223B1E9500355D80 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81CE9D47223B1E9500355D80 /* en */,
+				81CE9D4A223B1E9E00355D80 /* ru */,
+			);
+			name = Localizable.stringsdict;
+			path = /Users/mmd/Desktop/Work/GIT/inflation/inflation;
+			sourceTree = "<absolute>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -166,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -280,10 +600,13 @@
 		};
 		813F3C352238FEC900AC0C9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4169771D5DF33249356F2C /* Pods-inflation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J94Z86FL;
 				INFOPLIST_FILE = inflation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,16 +614,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = guru.service.inflation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		813F3C362238FEC900AC0C9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FED5B12DF243ECA1AD23567 /* Pods-inflation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J94Z86FL;
 				INFOPLIST_FILE = inflation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +634,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = guru.service.inflation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
